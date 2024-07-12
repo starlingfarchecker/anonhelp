@@ -1,0 +1,78 @@
+# The URL the site will be built for
+base_url = "https://anonhelp.pages.dev"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# The default language ("de" also included in i18n directory)
+default_language = "en"
+
+# The site theme to use
+# theme = "zolarwind"
+
+# When set to "true", a search index is built from the pages and section content for `default_language`
+build_search_index = false
+
+# When set to "true", a feed is automatically generated
+generate_feeds = true
+
+# The taxonomies to use for the site
+taxonomies = [
+    { name = "tags", paginate_by = 6, feed = true},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "1337"
+
+# If Zola does not support the language you want to highlight, add additional syntax in this directory
+extra_syntaxes_and_themes=["syntaxes"]
+
+[extra]
+# Put all your custom variables here
+
+# The title of the blog
+title = "AnonHelp"
+
+# Path to the language resource files
+path_language_resources = "i18n/"
+
+# The variables after this line are optional
+
+# The generator used for generating the static website
+generator = "Zola v0.19.1"
+
+# Favicon as SVG graphics
+favicon_svg = "/img/yin-yang.svg"
+
+# The copyright notice
+copyright = "Zolarwind theme copyright {year} by Thomas Weitzel"
+
+# The description shown on banner
+site_description = "Pair with a mental health provider through AnonHelp. Retain your privacy, anonymity and autonomy, and pay directly with Monero (XMR)"
+
+# The quote shown on banner
+quote = { text = "Welcome to AnonHelp!"}
+
+# The main navigation menu
+menu_pages = [
+    { title = "About",                url = "/blog/about/"   },
+    { title = "Tags",                url = "/tags/"   },
+    { title = "Telegram",              url = "https://t.me/+DKJi-V1UWLVkMWZi" },
+    { title = "Matrix",              url = "https://matrix.to/#/#anonhelp:monero.social" },
+    { title = "SimpleX",              url = "https://simplex.chat/contact#/?v=2-5&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2F9B8soqQ2JzWhmetl8QKjvym4a1tEcx4i%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAjvUebUEoLkpg0eI_xg55vZYd94h2kbzp_bbi92oefAQ%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22zam2pGC6rlFwoZYbMYyg4Q%3D%3D%22%7D" },
+
+
+]
+
+# The pages that appear in the footer
+footer_pages = [
+    { title = "Privacy Policy",       url = "/pages/privacy/" },
+    { title = "Terms",                url = "/pages/terms/"   },
+]
+
+# Social links
+social_links = [
+]
