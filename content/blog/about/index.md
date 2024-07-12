@@ -1,7 +1,7 @@
 +++
 date = 2024-07-11
 title = "Welcome to AnonHelp!"
-description = "AnonHelp is a directory for therapists, psychologists, psychiatrists, and mental health workers who are willing to receive the cryptocurrenct Monero (XMR) as payment for their services."
+description = "AnonHelp is a directory for therapists, psychologists, psychiatrists, and mental health workers who are willing to receive the cryptocurrency Monero (XMR) as payment for their services."
 authors = ["Thomas Weitzel"]
 weight = 1
 [taxonomies]
@@ -26,6 +26,8 @@ vetted without having to reveal their identity
 
 Anonymous XMR donations for AnonHelp are much appreciated. 100% of funds go to those who are
 unable to pay for help.
+
+![](donation.png)
  
 86VEPqGstgBVLgH5aJNJ6fKRDDaXGifmnDfcSWFBFzXLixsRLnLshrwZxJGeeivTGNAWgLGFsGc1QhLPAW795Cc1PGcn2xm
 
